@@ -1,0 +1,143 @@
+TOPICS COMPLETED IN C PROGRAMMING TUTORIAL
+============================================
+
+1. Variables & Data Types
+   - Declaration and initialization of variables
+   - Different data types (int, float, char, etc.)
+
+2. Basic Input/Output
+   - printf() function
+   - scanf() function
+
+3. Operators
+   - Arithmetic Operators (+, -, *, /, %)
+   - Relational Operators (==, !=, <, >, <=, >=)
+   - Logical Operators (&&, ||, !)
+
+4. Conditional Statements
+   - if statement
+   - else if statement
+   - else statement
+   - switch-case statement
+
+5. Loops
+   - for loop
+   - while loop
+   - do-while loop
+
+6. Loop Control Statements
+   - break statement
+   - continue statement
+   - goto statement and labels
+
+7. Functions
+   - Function declaration
+   - Function definition
+   - Function parameters
+   - Return values
+   - Different function types (with/without return, with/without arguments)
+
+8. Recursion
+   - Factorial using recursion
+   - Fibonacci using recursion
+   - Iterative vs Recursive approaches
+
+9. Arrays
+   - 1D Arrays
+   - 2D Arrays (Matrices)
+   - Array initialization and manipulation
+
+10. Pointers
+    - Pointer declaration and initialization
+    - Address-of operator (&)
+    - Dereference operator (*)
+    - Pointer arithmetic
+    - NULL pointers
+
+11. Call by Reference
+    - Passing variables by reference to functions
+    - Modifying values through pointers
+
+12. Arrays and Pointers
+    - Passing arrays to functions
+    - Pointer notation for arrays
+    - Pointer arithmetic with arrays
+
+13. Strings
+    - Character arrays as strings
+    - String input using gets() and scanf()
+    - String output using puts() and printf()
+    - String functions:
+      * strlen() - Length of string
+      * strrev() - Reverse string
+      * strcmp() - Compare strings
+      * strcpy() - Copy string
+      * strcat() - Concatenate strings
+
+14. Structures
+    - Structure definition
+    - Structure members
+    - Structure initialization
+    - Accessing structure members using dot operator (.)
+
+15. Unions
+    - Union definition
+    - Union members (shared memory)
+    - Accessing union members
+
+16. typedef
+    - Creating type aliases
+    - typedef with structures
+    - typedef with pointers
+
+17. Variable Scope
+    - Local variables
+    - Global variables
+    - Scope precedence
+
+18. Storage Classes
+    - auto keyword
+    - static keyword
+    - extern keyword
+    - register keyword
+    - Static variables (retain value between function calls)
+
+19. Dynamic Memory Allocation
+    - malloc() - Memory allocation
+    - calloc() - Contiguous allocation (initialized with 0)
+    - realloc() - Reallocate memory
+    - free() - Deallocate memory
+    - Memory management and cleanup
+
+20. Memory Management Concepts
+    - Dangling pointers
+    - Garbage values
+    - Proper memory allocation and deallocation
+
+21. Void Pointers
+    - Generic pointers (void*)
+    - Typecasting void pointers
+    - Using void pointers with different data types
+
+22. Typecasting
+    - Explicit type conversion
+    - Implicit type conversion
+    - Casting between different data types
+
+23. Preprocessing
+    - #include directive (for header files)
+    - #define directive (for constants and macros)
+
+24. Pattern Programs
+    - Triangular star patterns
+    - Reversed triangular patterns
+
+SKILLS DEMONSTRATED:
+====================
+- Console input/output handling
+- Implementation of algorithms (factorial, Fibonacci)
+- Dynamic memory management
+- Data structure usage (arrays, structures)
+- String manipulation
+- Pointer concepts and usage
+- Function organization and modularity
