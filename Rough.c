@@ -1,44 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
+#define safe_free(x); do{free(x); x = NULL;}while(0);
 
-void ArrayRev(int *array, int sz)
-{
+int main(){
 
-    int temp[sz];
+    int* ptr = (int *) malloc(sizeof(int));
+    ptr[0] = 55;
 
-    for (int t = 0; t < sz; t++)
-    {
-        temp[t] = array[t];
-    }
+    safe_free(ptr);
+    printf("The Address of ptr is %p\n", ptr);
 
-    for (int i = 0; i < sz / 2 + 1; i++)
-    {
-        (array[i]) = temp[sz - i - 1];
-        printf("%d ", array[i]);
-    }
-
-    for (int j = sz / 2 - 1; j >= 0; j--)
-    {
-        array[j] = temp[j];
-        printf("%d ", array[j]);
-    }
-}
-
-int main()
-{
-
-    int size, value;
-    printf("Enter how Many Size You Want in Your Array : ");
-    scanf("%d", &size);
-
-    int arr[size];
-
-    for (int i = 0; i < size; i++)
-    {
-        printf("Enter Your Array Value at %d : ", i);
-        scanf("%d", &value);
-        arr[i] = value;
-    }
-
-    ArrayRev(arr, size);
     return 0;
 }

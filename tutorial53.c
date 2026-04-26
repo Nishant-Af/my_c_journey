@@ -5,7 +5,7 @@ int main()
 
     int a = 34;
     int *ptr = &a;
-    ptr = NULL;
+    // ptr = NULL;
 
     // printf("The Address of a is %d\n", ptr);
     // printf("The VAlue of a is %d\n", *ptr);
