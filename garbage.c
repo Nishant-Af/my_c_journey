@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define safe_free(x); do{free(x); x = NULL;} while(0);
 
 int main(){
 
@@ -20,10 +21,11 @@ int main(){
 
   // free the allocated Memmory
   free(ptr);
+  //  safe_free(ptr);   //we can also use this;
 
  // Now ptr is a danging pointer because it still hold the address of the previously allocated memmory // but that memmory has been freed
  
-  printf("Trying To Acess free Memory : %d\n", *ptr); // this will load to be undefined
+ printf("Trying To Acess free Memory : %d\n", *ptr); // this will load to be undefined
 
   return 0;
 }
